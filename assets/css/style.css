@@ -45,6 +45,10 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
 }
 
+.typing {
+  color: #ffc107; /* Change this to your desired color */
+}
+
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
@@ -885,6 +889,10 @@ section .container {
 .portfolio .portfolio-wrap:hover .portfolio-info::after {
   bottom: 15px;
   right: 15px;
+}
+
+.portfolio h4 {
+  color: #ffc107; /* Change this to your desired color */
 }
 
 /*--------------------------------------------------------------
