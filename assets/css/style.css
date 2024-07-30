@@ -18,7 +18,7 @@ body {
 body::before {
   content: "";
   position: fixed;
-  background: #010e1b;
+  background: #1a2a2a;
   background-size: cover;
   left: 0;
   right: 0;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: -4px;
   left: 0;
-  background-color: #9e7f25;
+  background-color: #ffc107;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -503,7 +503,7 @@ section .container {
 }
 
 .interests .icon-box:hover {
-  background: #042b56eb;
+  background: #295e5e;
 }
 
 /*--------------------------------------------------------------
@@ -646,8 +646,8 @@ section .container {
   border-radius: 50px;
   left: -9px;
   top: 0;
-  background: #9e7f25;
-  border: 2px solid #9e7f25;
+  background: #ffc107;
+  border: 2px solid #ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -710,7 +710,7 @@ section .container {
 }
 
 .services .icon-box:hover {
-  background: #042e5f;
+  background: #4e7e7e;
   border-color: #ffc107;
 }
 
@@ -723,11 +723,11 @@ section .container {
 }
 
 .services .icon-box:hover .icon::before {
-  background: #35e888;
+  background: #ffc107;
 }
 
 .services .icon-box:hover h4 a, .services .icon-box:hover p {
-  color: #12d640;
+  color: #ffc107;
 }
 
 /*--------------------------------------------------------------
@@ -862,7 +862,7 @@ section .container {
 }
 
 .portfolio .portfolio-wrap .portfolio-links a:hover {
-  color: #63eda3;
+  color: #ffc107;
 }
 
 .portfolio .portfolio-wrap:hover::before {
@@ -908,7 +908,7 @@ section .container {
 
 .contact .info-box h3 {
   font-size: 20px;
-  color: #28a745;
+  color: #ffc107;
   font-weight: 700;
   margin: 10px 0 8px 68px;
 }
@@ -936,7 +936,7 @@ section .container {
 }
 
 .contact .info-box .social-links a:hover {
-  color: #12d640;
+  color: #ffc107;
 }
 
 .contact .php-email-form {
@@ -1047,7 +1047,7 @@ section .container {
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #15bb62;
+  background: #ffc107;
 }
 
 @-webkit-keyframes animate-loading {
