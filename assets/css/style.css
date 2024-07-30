@@ -12,13 +12,13 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #fff;
   position: relative;
-  background: #2c3e50; /* transparent */
+  background: #1a2a2a; /* transparent */
 }
 
 body::before {
   content: "";
   position: fixed;
-  background: #2c3e50; /* #010e1b */
+  background: #1a2a2a; /* #010e1b */
   background-size: cover;
   left: 0;
   right: 0;
@@ -33,11 +33,11 @@ body::before {
 }
 
 a {
-  color: #12d640;
+  color: #ffd700;
 }
 
 a:hover {
-  color: #12d640;
+  color: #ffd700;
   text-decoration: none;
 }
 
