@@ -374,6 +374,13 @@ section .container {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.img-circle {
+  width: 150px; /* Set the width you want */
+  height: 200px; /* Set the height you want */
+  border-radius: 50%; /* To make the image oval */
+  object-fit: cover; /* To ensure the image covers the entire oval shape */
+}
+
 .about-me .content h3 {
   font-weight: 700;
   font-size: 26px;
