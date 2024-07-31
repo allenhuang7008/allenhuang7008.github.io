@@ -375,9 +375,9 @@ section .container {
 # About
 --------------------------------------------------------------*/
 .img-circle {
-  width: 150px; /* Set the width you want */
+  width: 200px; /* Set the width you want */
   height: 200px; /* Set the height you want */
-  border-radius: 50%; /* To make the image oval */
+  border-radius: 70%; /* To make the image circle */
   object-fit: cover; /* To ensure the image covers the entire oval shape */
 }
 
