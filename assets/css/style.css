@@ -1103,3 +1103,32 @@ section .container {
     transform: translateX(-50%);
   }
 }
+
+/*--------------------------------------------------------------
+# Profile Image
+--------------------------------------------------------------*/
+.img-container {
+  width: 200px;
+  height: 200px;
+  overflow: hidden;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-circle {
+  object-fit: cover;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+/*--------------------------------------------------------------
+# Utility Classes
+--------------------------------------------------------------*/
+.text-left { text-align: left; }
+.color-accent { color: #ffc107; }
+.color-white { color: #fff; }
+.fs-20 { font-size: 20px; }
+.inline-block { display: inline-block; }
+.pb-5px { padding-bottom: 5px; }
