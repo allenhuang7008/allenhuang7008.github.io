@@ -1124,6 +1124,36 @@ section .container {
 }
 
 /*--------------------------------------------------------------
+# Publication List
+--------------------------------------------------------------*/
+.publication-list {
+  padding-left: 1.2rem;
+}
+
+.publication-list li {
+  margin-bottom: 1.2rem;
+  line-height: 1.6;
+}
+
+.publication-list li a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.publication-list li a:hover {
+  color: #ffc107;
+  text-decoration: underline;
+}
+
+.pub-venue {
+  display: block;
+  color: #ffc107;
+  font-size: 0.9rem;
+  margin-top: 0.2rem;
+}
+
+/*--------------------------------------------------------------
 # Utility Classes
 --------------------------------------------------------------*/
 .text-left { text-align: left; }
